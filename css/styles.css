@@ -1,0 +1,115 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(241, 182, 108);
+}
+
+h1, h2, h3 {
+    font-family: "";
+}
+
+h2 {
+    color: #ad5214;
+}
+
+p {
+    font-family: times;
+}
+
+header h2 {
+    color: #97835d;
+    font-size: 43px;
+    font-family: "Calligraffitti";
+}
+
+header h1 {
+    font-size: 55px;
+    font-family: "Chilanka";
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, rgb(189, 21, 9), rgb(247, 161, 32));
+    padding: 20px 0;
+    color: rgb(245, 223, 223);
+}
+
+footer a {
+    color:rgb(248, 189, 189);
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image:url(https://www.publicdomainpictures.net/pictures/250000/velka/running-1517386284uG9.jpg);
+    color:rgb(226, 213, 186);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+img{
+    width:600px;
+    border-style:solid;
+    border-color:rgb(202, 115, 81);
+    border-width: 6px;
+    margin-bottom: 10px;
+}
+
+.xxxa{
+    font-family: Bad Script;
+    font-size: 44px;
+}
+
+a div{
+    color:#995d2b;
+}
+
+nav a {
+    color:#995d2b;
+}
+
+.aboutme{
+    margin:80px;
+}
+
+.card img{
+    height: 300px;
+}
+
+.grid-container {
+    display: grid;
+    place-items: center;
+    margin:20px;
+}
+
+.card{
+    background-color: #bb9c64;
+    margin:10px;
+}
+
+.alert {
+padding: 20px;
+background-color: #ffee56; /* Red */
+color: rgb(48, 48, 48);
+margin-bottom: 15px;
+}
+
+.closebtn {
+margin-left: 15px;
+color: rgb(255, 255, 255);
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.closebtn:hover {
+color: black;
+}
+
+.profilepic img{
+    width:200px;
+}

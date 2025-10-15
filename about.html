@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
+   <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+    <title>Start Running Today!</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>About Me:</h1>
+                    <h2>Everything you need to know</h2>
+                </div>
+                <div class="col offset-4 mt-4">
+                    <a href="#feedbackform"><button type="button" class="btn btn-warning">Send Feedback</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <nav class="navbar navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    Home
+                </a>
+                <a class="navbar-brand" href="about.html">
+                    About
+                </a>
+                <a class="navbar-brand" href="whyrun.html">
+                    Why Run?
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>How I Got Here</h2>
+                    <p>
+                        I started off at Westgate Community School from Kindergarten to 7th grade, and then changed to Jefferson Academy my 8th grade year. Jefferson Academy is much much better than Westgate for so many reasons. My mental health is a lot better and I am continuing to go to high school at JA.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col">
+                    <h2>Who I Am</h2>
+                        <p>
+                            My name is Kayla Hughes. I am a pretty pink princess. I find many things to be fantastic, and running is one of the them. It is my main hobby, alongside reading, climbing, and drawing. I hope to be friends with you, and I hope my hope is reciprocated!
+                        </p>
+                </div>
+                <div class="profilepic">
+                    <img src="https://i.pinimg.com/736x/d8/6a/8c/d86a8cd58a2aaa77083e064b235dcb7b.jpg">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h2>My Mission</h2>
+                        <p>
+                            I would love for everyone to start running. I love running, and it is so good for you, it brings me much joy and pain, and very well could be my life's purpose. I really think everyone should try running, and I truly hope they will love it as much as I do.
+                        </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="feedbackform">
+            <div class="container mt-5">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            May we contact you?
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                                <label for="contactYes" class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                <label for="contactNo" class="form-check-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">             
+                <div class="col ml-3 col-md-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="whyrun.html">Why Run?</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/">Instagram</a><br>
+                    <a href="http://facebook.com/">Facebook</a><br>
+                    <a href="http://twitter.com/">Twitter</a><br>
+                    <a href="http://youtube.com/">YouTube</a>
+                </div>
+                <div class="col">
+                    Tel: 1-234-567-8900<br />
+                    Email: kayla.hughes@jajags.com
+                </div>                
+           </div>
+        </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
